@@ -41,11 +41,7 @@ def fibonacci(n):
         return 0
     elif n == 1:
         return 1
-    fib_sequence = [0]
-    fib_sequence.append(1)
-    for i in range(n-2):
-        fib_sequence.append(fib_sequence[-2] + fib_sequence[-1])
-    return fib_sequence[-1]
+    return fibonacci(n-1)+fibonacci(n-2)
 
 def factorial(n):
     '''
