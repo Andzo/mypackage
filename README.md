@@ -6,7 +6,7 @@ Mypackage is a python library that is created for the purpose of learning how to
 `python setup.py sdist`
 
 ## Installing this package from GitHub
-`pip install git+https://github.com/Andzo/my_package.git`
+`pip install git+https://github.com/Andzo/mypackage.git`
 
 ## Updating this package from GitHub
-`pip install -- upgrade git+https://github.com/Andzo/my_package.git`
+`pip install -- upgrade git+https://github.com/Andzo/mypackage.git`
